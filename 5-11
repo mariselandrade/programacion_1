@@ -1,0 +1,7 @@
+%overlay plots
+x=linspace(0,2*pi,40);   
+y=sin(x);
+z=cos(x);
+plot(x,y,'g')
+hold on
+plot(x,z,'<m')
