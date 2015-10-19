@@ -1,0 +1,4 @@
+a=linspace(-5,pi,40);
+x = 1 + 2*cos(a); 
+y = 1 + 2*sin(a);
+plot(x,y)
