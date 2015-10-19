@@ -1,0 +1,5 @@
+t=linspace(-1,pi,50);
+x=5*sin(t);
+y=t;
+plot(t,x,t,y,'-og')
+grid on
