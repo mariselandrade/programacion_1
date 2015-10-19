@@ -1,0 +1,7 @@
+x=linspace(0,2*pi,40);  
+y=cos(2*x);
+z=cos(x).^2-sin(x).^2;
+plot(x,y)
+grid on
+hold on
+plot(x,z,'o')
